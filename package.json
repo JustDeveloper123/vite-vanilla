@@ -12,8 +12,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
-    "imagemin": "^8.0.1",
-    "imagemin-webp": "^8.0.0",
     "postcss": "^8.4.31",
     "postcss-sort-media-queries": "^5.2.0",
     "prettier": "^3.0.3",
