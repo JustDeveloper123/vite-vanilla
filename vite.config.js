@@ -44,12 +44,23 @@ export default defineConfig({
     // },
   ],
 
+  //# Aliases
+  resolve: {
+    alias: {
+      '@': './src',
+      '@styles': './src/styles',
+      '@modules': './src/modules',
+      '@scripts': './src/scripts',
+      '@templates': './src/templates',
+    },
+  },
+
   //# Production
   build: {
     rollupOptions: {
       input: {
         // Production paths
-        main: resolve(__dirname, 'index.html'),
+        main: resolve(__dirname, './index.html'),
       },
     },
   },
