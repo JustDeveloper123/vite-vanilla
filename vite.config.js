@@ -7,7 +7,6 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 export default defineConfig(() => {
   return {
-    base: '/vite-vanilla/', // name of the github repo for deployment to github actions
     envPrefix: 'APP_',
 
     //# Aliases
@@ -24,6 +23,7 @@ export default defineConfig(() => {
 
     //# Production
     build: {
+      base: '/vite-vanilla/', // name of the github repo for deployment to github actions
       outDir: 'build',
       rollupOptions: {
         input: {
