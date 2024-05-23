@@ -23,7 +23,6 @@ export default defineConfig(() => {
 
     //# Production
     build: {
-      base: '/vite-vanilla/', // name of the github repo for deployment to github actions
       outDir: 'build',
       rollupOptions: {
         input: {
