@@ -10,8 +10,8 @@ lerna-debug.log*
 node_modules
 build
 dist-ssr
+src/assets/img/
 *.local
-src/assets/img
 
 # Editor directories and files
 .vscode/*
