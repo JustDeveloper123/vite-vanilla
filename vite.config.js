@@ -73,9 +73,9 @@ export default defineConfig(() => {
       // just delete it if you do not need it
       {
         ...imagemin(
-          ['./public/**/*.{jpg,png,jpeg}'], // images for the webp folder
+          ['./src/assets/**/*.{jpg,png,jpeg}'], // images for the webp folder
           {
-            destination: './public/img/webp/', // custom output path
+            destination: './public/img/', // custom output path
             plugins: [imageminWebp({ quality: 70 })],
           },
         ),
